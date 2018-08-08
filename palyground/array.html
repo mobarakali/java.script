@@ -8,8 +8,31 @@
 </head>
 <body>
     <h1>Array</h1>
-    <script>
-    
+    <p><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">array </a> </p>
+
+<script>
+    var fruits = ["Apple", "Banana"];
+    console.log(fruits.length);
+    // 2
+
+    var first = fruits[0];
+    console.log(first);
+    // Apple
+
+    var last = fruits[fruits.length-1];
+    console.log(last);
+    // Banana
+
+    // Loop Over an Array
+    fruits.forEach(function(item, index, array){
+       console.log(item, index);
+    }); 
+    /*
+    TODO: forEach সম্পর্কে আরো জানতে হবে 
+    */
+</script>
+
+<script>
     function show(x){
         console.log(x);
     }
@@ -17,11 +40,41 @@
     */
    var arr = [];
    arr = ["One", "Two", "Three"]
-   console.log(arr);
-
+   
    // Array Length
    show(arr.length);
+   //এ্যারের লেন্থ দেখার জন্য
+
    // Show array Value
+   show(arr); //   এ্যারের  ভ্যালূ দেখার জন্য
+
+   //Reverse Array Values
+   show(arr.reverse());
+   // এ্যারের ভ্যালুগুলোকে রিভার্স করা
+
+
+   // Remove the first value of the array:
+   arr.shift();
+   show(arr);
+   // এ্যারে থেকে প্রথম ভ্যালুটাকে বাদ দেয়া। আচ্ছা এটা কোন ধরণের প্যারামিটার গ্রহণ করে।
+
+
+   // Add value at the beginning of an array:
+   arr.unshift("Four", "Three");
+   show(arr);
+   // এ্যারের শুরুতে কোন ভ্যালু যোগ করতে
+
+
+   // Add value at the End of an array:
+   arr.push("Zero");
+   show(arr);
+   // এ্যারের শেষে ভ্যালু যোগ করতে
+
+   // Remove value From the End of an array:
+   arr.pop();
+   show(arr);
+   //এ্যরের শেষে থেকে কোন ভ্যালু বাদ দিতে
+
     </script>
 </body>
 </html>
