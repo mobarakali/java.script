@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>An empty page</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+ <script type="text/javascript">
+    var text = "My Name is Ali."
+    var reversedText = [];
+    for(var i = 0; i< text.length; ++i){
+      reversedText.push(String(text[i]));
+    }
+    console.log( reversedText);
+    var x = reversedText.reverse();
+    console.log("reverse:" + x );
+
+    console.log("Remove Array Value");
+    text.shift();
+
+    console.log(text);
+
+
+ </script>
+</body>
+</html>
