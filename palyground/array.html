@@ -28,53 +28,51 @@
        console.log(item, index);
     }); 
     /*
-    TODO: forEach সম্পর্কে আরো জানতে হবে 
+    TODO: forEach সম্পর্কে আরো জানতে হবে  
     */
+
+    //  add at the end of an array
+    var newLength = fruits.push("Orange");
+    console.log(newLength, fruits);
+
+    // Removes from the end of an array
+    var lastOne = fruits.pop();
+    console.log(lastOne, fruits);
+
+    // Adds beginning of an array 
+    var addFirst = fruits.unshift("Orange");
+    console.log("Add First", addFirst, fruits);
+
+    // Removes From beginning of an array
+    var removeFirst = fruits.shift();
+    console.log("Remove First: ", removeFirst, fruits);
+
+    // Find index of an array value
+    console.log(fruits.indexOf("apple")); // shows -1 if not matched
+    console.log(fruits.indexOf("Apple")); // shows indexed value if found
+    fruits.push("Orange");
+    console.log(fruits.indexOf("Orange")); // shows indexed value if found
+    fruits.push("Apple");
+    console.log(fruits);
+    console.log(fruits.indexOf("Apple")); //Shows the first value if found multiple
+
+    var newFruits = fruits.slice();
+    console.log(newFruits);
+
+
+/*
+আমরা এখানে একটা টেক্সট নেব এবং সেটাকে উল্টাবো।
+*/
+var text = "I Love.";
+var arr = [];
+for (var i=0; i<text.length; ++i){
+    arr.push(text[i]);
+}
+
+arr.reverse(); // 
+console.log(arr.join(''));
+
+
 </script>
-
-<script>
-    function show(x){
-        console.log(x);
-    }
-    /*
-    */
-   var arr = [];
-   arr = ["One", "Two", "Three"]
-   
-   // Array Length
-   show(arr.length);
-   //এ্যারের লেন্থ দেখার জন্য
-
-   // Show array Value
-   show(arr); //   এ্যারের  ভ্যালূ দেখার জন্য
-
-   //Reverse Array Values
-   show(arr.reverse());
-   // এ্যারের ভ্যালুগুলোকে রিভার্স করা
-
-
-   // Remove the first value of the array:
-   arr.shift();
-   show(arr);
-   // এ্যারে থেকে প্রথম ভ্যালুটাকে বাদ দেয়া। আচ্ছা এটা কোন ধরণের প্যারামিটার গ্রহণ করে।
-
-
-   // Add value at the beginning of an array:
-   arr.unshift("Four", "Three");
-   show(arr);
-   // এ্যারের শুরুতে কোন ভ্যালু যোগ করতে
-
-
-   // Add value at the End of an array:
-   arr.push("Zero");
-   show(arr);
-   // এ্যারের শেষে ভ্যালু যোগ করতে
-
-   // Remove value From the End of an array:
-   arr.pop();
-   show(arr);
-   //এ্যরের শেষে থেকে কোন ভ্যালু বাদ দিতে
-
-    </script>
 </body>
 </html>
