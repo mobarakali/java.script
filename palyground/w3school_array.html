@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Array</title>
+</head>
+<body>
+    <p id="out"></p>
+    <script>
+        function show(x){
+            console.log(x);
+        }
+        function print(x){
+            document.getElementById('out').innerHTML  = x;
+        }
+    var arr = ["One", "Two", "Three"];
+    // Show array length
+    show(arr.length);
+
+     // Another Methode to add array
+    var a2 = new Array (1,2,3,4,5,6);
+    show(a2) 
+
+    // Adding new value to end
+    arr[arr.length] = "Four";
+    show(arr);
+    // Adding new value to end
+    arr.push("five");
+    show(arr);
+    // Replacing Value of an array
+    arr[4] = "Five";
+    show(arr); // console
+    print(a2); // html
+    print(arr); // html
+
+
+    // Write a program that prints any text opposit order;
+    var text = "I love you Bangladesh!";
+    var Ulta = "";
+    for(var i = text.length - 1 ; i>=0; i--){
+        Ulta += text[i];
+    }
+    print(Ulta);
+    
+
+    </script>
+
+
+</body>
+</html>
