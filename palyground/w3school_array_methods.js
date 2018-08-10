@@ -1,4 +1,5 @@
-var arr = ["One", "Two", "Three", "Four", "Five", "Six"];
+        //var arr = ["One", "Two", "Three", "Four", "Five", "Six"];
+        
         // splice ();
         /*
         * splice() একটা শক্তিশালী মেথড। এটা কোন এরের মাঝে নতুন এক বা একাধিক
@@ -63,3 +64,33 @@ var arr = ["One", "Two", "Three", "Four", "Five", "Six"];
         // এবং তার সাথে নতুন কোন ভ্যালু যোগ করে রাখা যায়।
         show(arr3);
         
+
+        // .slice(), আমরা আগে .splice() নিয়ে কাজ করেছি এখন করবো নতুন .slice() নিয়ে।
+
+        var animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+        console.log(animals);
+        // এর কাজও অনেকটা .splice()এর মত, তবে তা splice() এর মত এ্যারের ভ্যালুগুলোকে 
+        // মডিফাই করেনা, বরং অক্ষত রাখে।
+        console.log("Slicing:", animals.slice(2));
+        // expected output: Slicing: Array ["camel", "duck", "elephant"]
+        console.log("After Slice:",animals);
+        // expected output: After Slice: Array ['ant', 'bison', 'camel', 'duck', 'elephant']
+
+        console.log("Splicing:", animals.splice(2));
+        // expected output:Splicing:  Array ["camel", "duck", "elephant"]
+        console.log("After Splice:",animals);
+        // expected output: After Splice: Array [ "ant", "bison" ]
+
+        /*
+         slice() অনেকটা  splice() এর মত কাজ করলেও এটা আসলে এ্যারের আসল ভ্যালুকে
+         কোন পরিবর্তন করেনা। পক্ষান্তরে এখানে নতুন কোন ভ্যালু যোগ করারও কোন সুযোগ নেই।
+        */
+
+        console.log(animals.slice(2, 4));
+        // expected output: Array ["camel", "duck"]
+
+        console.log(animals.slice(1, 5));
+        // expected output: Array ["bison", "camel", "duck", "elephant"]
+
+        console.log(animals.slice(-2));
+        // expected output: Array ["bison", "camel", "duck", "elephant"]
