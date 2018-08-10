@@ -51,6 +51,17 @@
         // এখানে যোগ করা  হয়েছে। "One" is replaced with "First"
         show(arr);
         //.splice() খুবই শক্তিশালী মেথড, এবং মনে রাখার জন্য পর্যাপ্ত অনুশীলন খুব জরুরী।
+/*
+// Concatinate Arrays
+//Note: The concat() method does not change the existing arrays. It always returns a new array.
+*/
+       
+        var arr2 = [7,8,9];
+
+        var concatArrays = arr.concat(arr2, arr, arr2); 
+        // এভাবে আমরা একাধিক এরেকে যোগ করতে পারি।
+        show(arr);
+        show(concatArrays);
 
     </script>
 
