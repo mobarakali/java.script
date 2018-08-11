@@ -8,29 +8,62 @@
 </head>
 <body>
   <script type="text/javascript">
-  var course = {};
-  console.log(course);
-  var course = new Object;
-  var course = {
-    title: "Learnign javascript",
-    instructor: "Mobarak Ali",
-    level: 1,
-    published: true,
-    views: 0,
-    updateViews: function(){
-      return ++course.views;
-    }
+  function Course(title, instructor, lavel, published, views){
+    this.title = title;
+    this.instructor = instructor;
+    this.lavel = lavel;
+    this.published = published;
+    this.views = views;
+    this.updateViews = function (){
+      return ++this.views;
+    };
   }
 
-  console.log(course.views);
+// More Advanced Methode
+var courses = [
+  new Course(  "Learning javascript", "Mobarak Ali", 1, true, 0 ),
+  new Course(  "Learning HTML", "Mobarak Ali", 1, true, 500 )
+];
 
-  course.updateViews();
+console.log(courses[0].title);
+console.log(courses[0].views);
+console.log(courses[0].updateViews());
 
-  console.log(course.views);
 
-  var currentDate = new Date();
+/*
+  var course01 = new Course(  "Learning javascript", "Mobarak Ali", 1, true, 0 );
+  var course02 = new Course(  "Learning HTML", "Mobarak Ali", 1, true, 500 );
 
-  console.log(currentDate);
+  console.log(course01.title);
+  console.log(course02.title);
+  course02.updateViews();
+  course02.updateViews();
+  console.log(course02.views);
+*/
+
+  // var course = {};
+  // console.log(course);
+  // var course = new Object;
+  // var course = {
+  //   title: "Learnign javascript",
+  //   instructor: "Mobarak Ali",
+  //   level: 1,
+  //   published: true,
+  //   views: 0,
+  //   updateViews: function(){
+  //     return ++course.views;
+  //   }
+  // }
+  //
+  // console.log(course.views);
+  //
+  // course.updateViews();
+  //
+  // console.log(course.views);
+  //
+  // var currentDate = new Date();
+  //
+  // console.log(currentDate);
 
   </script>
 </body>
