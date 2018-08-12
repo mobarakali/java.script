@@ -9,6 +9,30 @@
 <body>
   <h1>JavaScript Closures</h1>
   <script>
+  // Closures 02: Converting Pixel value to Ems
+
+  //console.log (32/16, "ems");
+
+  function giveMeEms (pixles){
+    var baseValue = 16;
+
+    function doTheMath(){
+      return pixles/baseValue;
+    }
+    return doTheMath;
+  }
+
+var smallSize = giveMeEms(12);
+var mediumSize = giveMeEms(18);
+var largeSize = giveMeEms(24);
+var xLargeSize = giveMeEms(32);
+
+console.log("Small size:", smallSize());
+console.log("Medium size:", mediumSize());
+console.log("Large size:", largeSize());
+console.log("Extra Large size:", xLargeSize());
+
+  /* // Closures 01
     function doSomeMath(){
       var a = 5;
       var b = 4;
@@ -25,6 +49,7 @@
     var theResult = doSomeMath();
 
     console.log("The resutl: ", theResult() );
+    */
   </script>
 </body>
 </html>
