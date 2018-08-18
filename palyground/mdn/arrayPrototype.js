@@ -2,4 +2,7 @@
 
 // num , fruits, items
 
-// Arra
+//  Array.length
+var clothing = ['shoes', 'shirts', 'socks', 'sweaters'];
+
+console.log(clothing.length); // 4
