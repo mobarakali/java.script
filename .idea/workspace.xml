@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07c4d5d8-ad21-43f3-8b4d-7c425ff91663" name="Default" comment="coding from PHP Storm">
-      <change afterPath="$PROJECT_DIR$/palyground/mdn/arrayMethodes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palyground/mdn/arrayPrototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/palyground/mdn/arrayMethods.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/palyground/mdn/array.html" beforeDir="false" afterPath="$PROJECT_DIR$/palyground/mdn/array.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/palyground/mdn/arrayMethodes.js" beforeDir="false" afterPath="$PROJECT_DIR$/palyground/mdn/arrayInstances.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,23 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="array.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="array.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/palyground/mdn/array.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="51" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="51" />
+            <state relative-caret-position="425">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arrayMethodes.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/palyground/mdn/arrayMethodes.js">
+      <file leaf-file-name="arrayMethods.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/palyground/mdn/arrayMethods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="109" column="63" selection-start-line="109" selection-start-column="63" selection-end-line="109" selection-end-column="63" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="3" column="30" selection-start-line="3" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -64,8 +61,9 @@
         <option value="$PROJECT_DIR$/palyground/mdn/array.js" />
         <option value="$PROJECT_DIR$/palyground/mdn/array_properties.js" />
         <option value="$PROJECT_DIR$/palyground/mdn/arrayPrototype.js" />
-        <option value="$PROJECT_DIR$/palyground/mdn/array.html" />
         <option value="$PROJECT_DIR$/palyground/mdn/arrayMethodes.js" />
+        <option value="$PROJECT_DIR$/palyground/mdn/arrayMethods.js" />
+        <option value="$PROJECT_DIR$/palyground/mdn/array.html" />
       </list>
     </option>
   </component>
@@ -82,8 +80,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2125" />
-    <option name="width" value="928" />
+    <option name="x" value="1359" />
+    <option name="width" value="854" />
     <option name="height" value="1017" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -98,9 +96,12 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/palyground/mdn/array.html" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -117,10 +118,22 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="w3school_array_methods.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/java.script/palyground/w3school_array_methods.html" />
+    <configuration name="array.html" type="JavascriptDebugType" factoryName="JavaScript Debug" editBeforeRun="true" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/java.script/palyground/mdn/array.html" useFirstLineBreakpoints="true" />
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.w3school_array_methods.html" />
+        <item itemvalue="JavaScript Debug.array.html" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +154,9 @@
       <workItem from="1533875958349" duration="1836000" />
       <workItem from="1534518921944" duration="8407000" />
       <workItem from="1534549040892" duration="4287000" />
+      <workItem from="1534660728561" duration="1388000" />
+      <workItem from="1534688863102" duration="1928000" />
+      <workItem from="1534692259574" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="coding from PHP Storm">
       <created>1533876084769</created>
@@ -153,10 +169,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21110000" />
+    <option name="totallyTimeSpent" value="25026000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2125" y="0" width="928" height="1017" extended-state="0" />
+    <frame x="1359" y="0" width="854" height="1017" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2767793" />
@@ -220,18 +236,64 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/palyground/mdn/array.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/palyground/mdn/arrayMethods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="30" selection-start-line="3" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/palyground/mdn/array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/palyground/mdn/arrayMethods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/palyground/mdn/arrayInstances.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/palyground/mdn/array.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="51" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/palyground/mdn/arrayMethodes.js">
+    <entry file="file://$PROJECT_DIR$/palyground/mdn/arrayInstances.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2725">
+          <caret line="109" column="63" selection-start-line="109" selection-start-column="63" selection-end-line="109" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/palyground/mdn/array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/palyground/mdn/arrayInstances.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1550">
           <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -308,20 +370,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/palyground/mdn/array.html">
+    <entry file="file://$PROJECT_DIR$/palyground/mdn/arrayInstances.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="51" />
+        <state relative-caret-position="2825">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/palyground/mdn/arrayMethodes.js">
+    <entry file="file://$PROJECT_DIR$/palyground/mdn/arrayMethods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="109" column="63" selection-start-line="109" selection-start-column="63" selection-end-line="109" selection-end-column="63" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="3" column="30" selection-start-line="3" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/palyground/mdn/array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

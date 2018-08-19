@@ -112,3 +112,43 @@ console.log(localStrings);
 
 var localStrings = myArray.toLocaleString('bn');
 console.log(localStrings);
+
+/*********************************************
+ * Iteration methods
+ ********************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
