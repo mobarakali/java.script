@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07c4d5d8-ad21-43f3-8b4d-7c425ff91663" name="Default" comment="coding from PHP Storm">
-      <change afterPath="$PROJECT_DIR$/palyground/mdn/arrayMethods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/palyground/mdn/array.html" beforeDir="false" afterPath="$PROJECT_DIR$/palyground/mdn/array.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/palyground/mdn/arrayMethodes.js" beforeDir="false" afterPath="$PROJECT_DIR$/palyground/mdn/arrayInstances.js" afterDir="false" />
-    </list>
+    <list default="true" id="07c4d5d8-ad21-43f3-8b4d-7c425ff91663" name="Default" comment="coding from PHP Storm" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +151,7 @@
       <workItem from="1534549040892" duration="4287000" />
       <workItem from="1534660728561" duration="1388000" />
       <workItem from="1534688863102" duration="1928000" />
-      <workItem from="1534692259574" duration="600000" />
+      <workItem from="1534692259574" duration="1087000" />
     </task>
     <task id="LOCAL-00001" summary="coding from PHP Storm">
       <created>1533876084769</created>
@@ -169,7 +164,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25026000" />
+    <option name="totallyTimeSpent" value="25513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="0" width="854" height="1017" extended-state="0" />
