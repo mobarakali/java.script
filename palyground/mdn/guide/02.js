@@ -14,7 +14,14 @@
 
 
 var a;
-console.log(a+2);  // Return NAN
+console.log(a + 2);  // Return NAN
+console.log(a * 2);  // Return NAN
 
 var b;
-console.log(b + " Ball");
+console.log(b + " Ball"); // undefined Ball
+
+
+var n = null;
+console.log(n+1); // 1
+console.log(n + " String") // undefined String
+console.log(n * 1); // 0
