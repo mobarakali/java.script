@@ -8,7 +8,10 @@ var ভেরিয়েবল = 'জাভাস্ক্রিপ্টে ভ�
 var a = 1;
 let b = 2; // works inside a block scope
 const c = 3; // value never changes;
-a = 11;
-console.log(a);
-b = 22;
-console.log(b);
+
+// If variables are used before it decleared
+var d = 11;
+console.log(d); // d decleared early
+
+console.log(e); // e not decleared
+e = 22; // a referenceError 
