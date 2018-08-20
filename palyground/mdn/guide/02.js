@@ -13,5 +13,11 @@ const c = 3; // value never changes;
 var d = 11;
 console.log(d); // d decleared early
 
-console.log(e); // e not decleared
-e = 22; // a referenceError 
+// console.log(e); // e not decleared
+ e = 22; // a referenceError
+// may be halting the program
+
+
+ // f not deleared
+console.log(f); // undefined
+var f = 5; //
