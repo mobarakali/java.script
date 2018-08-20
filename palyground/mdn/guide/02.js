@@ -12,6 +12,7 @@
 //   console.log("True!")
 // }
 
+/*
 
 var a;
 console.log(a + 2);  // Return NAN
@@ -25,3 +26,18 @@ var n = null;
 console.log(n+1); // 1
 console.log(n + " String") // undefined String
 console.log(n * 1); // 0
+*/
+
+// Variable Scope
+// using var
+if(true){
+  var x = 5;
+}
+console.log(x); // 5
+
+if(true){
+  let y = 5;
+// let only work inside a block {}
+}
+
+console.log(y); // referenceError
