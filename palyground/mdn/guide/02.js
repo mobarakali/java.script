@@ -46,7 +46,7 @@ if(true){
 console.log(y); // referenceError
 */
 
-
+/*
 //////////////////////////////////////
 // Variable hoisting
 //////////////////////////////////////
@@ -102,3 +102,30 @@ var aVar = "Global";
 //  let dose not hoist
 console.log(letVar); // a referenceError
 let letVar = 2;
+*/
+
+
+//////////////////////////////////////////////
+// Function Hoisting
+//////////////////////////////////////////////
+
+// Function Declearation
+foo(); // foo!
+
+function foo() {
+  console.log('foo!');
+}
+
+// Function Expression
+baz(); // TypeError: baz is not a function
+
+var baz = function () {
+  console.log('baz!');
+};
+
+// This is my try!
+lorem();// will have same result
+
+(function lorem() {
+  console.log("Lorem!");
+})();
