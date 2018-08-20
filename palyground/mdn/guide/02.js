@@ -59,7 +59,7 @@ var x = 3;
 var myVar = "Global Value";
 
 //A:  variable not decleared inside the function
-(function () {
+(function() {
   console.log(myVar); // Global Value
 })();
 
@@ -67,4 +67,38 @@ var myVar = "Global Value";
 (function() {
   console.log(myVar); // undefined
   var myVar = "Local Value";
-})()
+})();
+
+// //////////////////////////////////////////////////////
+// Variable hoisting Another Example
+// //////////////////////////////////////////////////////
+
+// Example 01
+var xx;
+console.log(xx == undefined); // True
+xx = 3;
+
+// Example 02
+
+var aVar = "Global";
+// Case:A
+(function() {
+  console.log(aVar); // Global
+})();
+
+// Case:B
+(function () {
+  console.log(aVar); // Global
+  aVar = "Local";
+})();
+
+// Case:C
+(function () {
+  console.log(aVar); // undefined
+  var aVar = "Local";
+})();
+
+
+//  let dose not hoist
+console.log(letVar); // a referenceError
+let letVar = 2;
